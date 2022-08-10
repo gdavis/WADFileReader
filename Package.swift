@@ -23,6 +23,11 @@ let package = Package(
             dependencies: []),
         .testTarget(
             name: "WADFileReaderTests",
-            dependencies: ["WADFileReader"]),
+            dependencies: ["WADFileReader"],
+            resources: [
+                .copy("assets.wad"),
+                .copy("Aatrox.wad"),
+            ]
+        ),
     ]
 )
