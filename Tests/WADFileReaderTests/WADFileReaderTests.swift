@@ -12,8 +12,7 @@ final class WADFileReaderTests: XCTestCase {
 
         XCTAssertEqual(file.header.major, 3)
         XCTAssertEqual(file.header.minor, 3)
-        XCTAssertEqual(file.header.numberOfDirectories, 1)
-        XCTAssertEqual(file.header.directoryOffset, 1)
+        XCTAssertEqual(file.header.numberOfEntries, 45)
     }
 
     func test_hasWADPrefix() throws {
