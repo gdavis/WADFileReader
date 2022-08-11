@@ -4,6 +4,9 @@ import SwiftyBytes
 /* References:
  WAD file reader in C#, updated for League.
  https://github.com/LoL-Fantome/LeagueToolkit/blob/master/LeagueToolkit/IO/WadFile/Wad.cs
+
+ Older reference for WAD 2/3. Seems out of date for the Riot version of the filetype.
+ http://hlbsp.sourceforge.net/index.php?content=waddef
  */
 
 /// Reads files to create `WADFile` objects.
